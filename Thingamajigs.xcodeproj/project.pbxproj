@@ -15,6 +15,9 @@
 		5DBBC5AA14F230ED00918659 /* FOOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBC5A914F230ED00918659 /* FOOAppDelegate.m */; };
 		5DBBC5AD14F230ED00918659 /* FOOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBC5AC14F230ED00918659 /* FOOViewController.m */; };
 		5DBBC5B014F230ED00918659 /* FOOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DBBC5AE14F230ED00918659 /* FOOViewController.xib */; };
+		5DBBC5BB14F231A100918659 /* FOOThingamajigClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBC5BA14F231A100918659 /* FOOThingamajigClient.m */; };
+		5DBBC5BE14F231C300918659 /* FOOThingamajig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBC5BD14F231C300918659 /* FOOThingamajig.m */; };
+		5DBBC5C414F240BD00918659 /* NSObject+FOOCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBC5C314F240BD00918659 /* NSObject+FOOCoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		5DBBC59914F230ED00918659 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DBBC59B14F230ED00918659 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5DBBC59D14F230ED00918659 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5DBBC5A114F230ED00918659 /* Thingamajigs-Info.plist */ = {isa = PBXFileReference; path = "Thingamajigs-Info.plist"; sourceTree = "<group>"; };
+		5DBBC5A114F230ED00918659 /* Thingamajigs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thingamajigs-Info.plist"; sourceTree = "<group>"; };
 		5DBBC5A314F230ED00918659 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DBBC5A514F230ED00918659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5DBBC5A714F230ED00918659 /* Thingamajigs-Prefix.pch */ = {isa = PBXFileReference; path = "Thingamajigs-Prefix.pch"; sourceTree = "<group>"; };
-		5DBBC5A814F230ED00918659 /* FOOAppDelegate.h */ = {isa = PBXFileReference; path = FOOAppDelegate.h; sourceTree = "<group>"; };
+		5DBBC5A714F230ED00918659 /* Thingamajigs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thingamajigs-Prefix.pch"; sourceTree = "<group>"; };
+		5DBBC5A814F230ED00918659 /* FOOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOOAppDelegate.h; sourceTree = "<group>"; };
 		5DBBC5A914F230ED00918659 /* FOOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOOAppDelegate.m; sourceTree = "<group>"; };
-		5DBBC5AB14F230ED00918659 /* FOOViewController.h */ = {isa = PBXFileReference; path = FOOViewController.h; sourceTree = "<group>"; };
+		5DBBC5AB14F230ED00918659 /* FOOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOOViewController.h; sourceTree = "<group>"; };
 		5DBBC5AC14F230ED00918659 /* FOOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOOViewController.m; sourceTree = "<group>"; };
 		5DBBC5AF14F230ED00918659 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FOOViewController.xib; sourceTree = "<group>"; };
+		5DBBC5B914F231A100918659 /* FOOThingamajigClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOOThingamajigClient.h; sourceTree = "<group>"; };
+		5DBBC5BA14F231A100918659 /* FOOThingamajigClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOOThingamajigClient.m; sourceTree = "<group>"; };
+		5DBBC5BC14F231C300918659 /* FOOThingamajig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOOThingamajig.h; sourceTree = "<group>"; };
+		5DBBC5BD14F231C300918659 /* FOOThingamajig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOOThingamajig.m; sourceTree = "<group>"; };
+		5DBBC5C214F240BD00918659 /* NSObject+FOOCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FOOCoding.h"; sourceTree = "<group>"; };
+		5DBBC5C314F240BD00918659 /* NSObject+FOOCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FOOCoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +86,11 @@
 		5DBBC59F14F230ED00918659 /* Thingamajigs */ = {
 			isa = PBXGroup;
 			children = (
-				5DBBC5A814F230ED00918659 /* FOOAppDelegate.h */,
-				5DBBC5A914F230ED00918659 /* FOOAppDelegate.m */,
-				5DBBC5AB14F230ED00918659 /* FOOViewController.h */,
-				5DBBC5AC14F230ED00918659 /* FOOViewController.m */,
-				5DBBC5AE14F230ED00918659 /* FOOViewController.xib */,
+				5DBBC5C514F24A8200918659 /* App */,
+				5DBBC5C614F24A9B00918659 /* Model */,
+				5DBBC5C714F24AA700918659 /* Service */,
+				5DBBC5C214F240BD00918659 /* NSObject+FOOCoding.h */,
+				5DBBC5C314F240BD00918659 /* NSObject+FOOCoding.m */,
 				5DBBC5A014F230ED00918659 /* Supporting Files */,
 			);
 			path = Thingamajigs;
@@ -96,6 +105,36 @@
 				5DBBC5A714F230ED00918659 /* Thingamajigs-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DBBC5C514F24A8200918659 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBC5A814F230ED00918659 /* FOOAppDelegate.h */,
+				5DBBC5A914F230ED00918659 /* FOOAppDelegate.m */,
+				5DBBC5AB14F230ED00918659 /* FOOViewController.h */,
+				5DBBC5AC14F230ED00918659 /* FOOViewController.m */,
+				5DBBC5AE14F230ED00918659 /* FOOViewController.xib */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		5DBBC5C614F24A9B00918659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBC5BC14F231C300918659 /* FOOThingamajig.h */,
+				5DBBC5BD14F231C300918659 /* FOOThingamajig.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5DBBC5C714F24AA700918659 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBC5B914F231A100918659 /* FOOThingamajigClient.h */,
+				5DBBC5BA14F231A100918659 /* FOOThingamajigClient.m */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +204,9 @@
 				5DBBC5A614F230ED00918659 /* main.m in Sources */,
 				5DBBC5AA14F230ED00918659 /* FOOAppDelegate.m in Sources */,
 				5DBBC5AD14F230ED00918659 /* FOOViewController.m in Sources */,
+				5DBBC5BB14F231A100918659 /* FOOThingamajigClient.m in Sources */,
+				5DBBC5BE14F231C300918659 /* FOOThingamajig.m in Sources */,
+				5DBBC5C414F240BD00918659 /* NSObject+FOOCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
