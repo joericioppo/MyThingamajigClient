@@ -3,7 +3,7 @@
 //  Thingamajigs
 //
 //  Created by Joe Ricioppo on 2/19/12.
-//  Copyright (c) 2012 Cocoa Developer. All rights reserved.
+//  BSD Licencse
 //
 
 #import "FOOThingamajig.h"
